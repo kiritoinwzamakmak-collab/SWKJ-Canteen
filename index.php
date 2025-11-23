@@ -65,7 +65,7 @@ $conn->close();
             <div class="error"><?php echo $error_message; ?></div>
         <?php endif; ?>
         
-        <form action="order.php" method="POST">
+        <form action="index.php" method="POST">
             <div class="form-group">
                 <label for="name">ชื่อผู้สั่ง:</label>
                 <input type="text" id="name" name="name" required>
